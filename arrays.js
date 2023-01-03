@@ -58,7 +58,13 @@ console.log({newFirstPosition:programmingLanguages[0]}); // returns 'new first i
 let removedLastElement = programmingLanguages.pop()
 console.log({removedLastElement});
 
+// Remove items from array at given position
 let pos = 4;
 console.log({before: programmingLanguages});
 let removedProgrammingLanguages = programmingLanguages.splice(pos, 1);
 console.log({removedProgrammingLanguages, newProgrammingLanuguages: programmingLanguages});
+
+// Find the index of given item
+console.log('Python is at ' + programmingLanguages.indexOf('Python') + ' position');
+// indexOf returns -1 when did not find the item in the array
+console.log('makeUpProgrammingLang is at ' + programmingLanguages.indexOf('makeUpProgrammingLang') + ' position')
