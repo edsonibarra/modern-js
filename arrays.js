@@ -57,3 +57,8 @@ console.log({newFirstPosition:programmingLanguages[0]}); // returns 'new first i
 // pop method removes the last item of the array and returns it
 let removedLastElement = programmingLanguages.pop()
 console.log({removedLastElement});
+
+let pos = 4;
+console.log({before: programmingLanguages});
+let removedProgrammingLanguages = programmingLanguages.splice(pos, 1);
+console.log({removedProgrammingLanguages, newProgrammingLanuguages: programmingLanguages});
