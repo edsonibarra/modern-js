@@ -30,3 +30,26 @@ console.log(aLotOfThings[8][4]);
 // push method return the new length of the array
 let newLen = aLotOfThings.push('hola mundo');
 console.log({newLen});
+
+const programmingLanguages = [
+    'Python',
+    'JavaScript',
+    'C',
+    'C++',
+    'Rust',
+    'Go',
+    'Java',
+    'C#',
+    'Haskell',
+    'Elixir',
+    'PHP'
+];
+
+// An example on how to use forEach method
+programmingLanguages.forEach( (item, idx, arr) => {
+    console.log({item, idx, arr});
+});
+
+// Add an element at the beginning of the array
+programmingLanguages.unshift('new first item');
+console.log({newFirstPosition:programmingLanguages[0]}); // returns 'new first item'
