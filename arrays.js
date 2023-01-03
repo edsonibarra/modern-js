@@ -53,3 +53,7 @@ programmingLanguages.forEach( (item, idx, arr) => {
 // Add an element at the beginning of the array
 programmingLanguages.unshift('new first item');
 console.log({newFirstPosition:programmingLanguages[0]}); // returns 'new first item'
+
+// pop method removes the last item of the array and returns it
+let removedLastElement = programmingLanguages.pop()
+console.log({removedLastElement});
