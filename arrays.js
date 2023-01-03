@@ -24,3 +24,9 @@ let aLotOfThings = [
 
 console.log(aLotOfThings);
 console.log(aLotOfThings[8][4]);
+
+
+// Add an element at the end of the array using push method
+// push method return the new length of the array
+let newLen = aLotOfThings.push('hola mundo');
+console.log({newLen});
