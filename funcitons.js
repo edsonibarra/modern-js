@@ -8,8 +8,9 @@ sayHello();
 
 // Anonymous funcitons
 
-const anotherFunction = function(){
+const anotherFunction = function( name ){
     console.log('anotherFunction');
+    console.log('hi ' + name);
 };
 
 anotherFunction();
