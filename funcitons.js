@@ -24,3 +24,13 @@ function sayHi(name){
 
 sayHi('John');
 sayHi('Jane');
+
+
+// Arrow functions
+
+const sayHiTwo = () => {
+    console.log('Arrow Function');
+};
+
+
+sayHiTwo()
