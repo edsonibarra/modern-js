@@ -34,3 +34,12 @@ const sayHiTwo = (name) => {
 
 
 sayHiTwo('John');
+
+// Return in funcitons
+
+const sumTwoNums = (num1, num2) => {
+    return num1 + num2;
+};
+
+let result = sumTwoNums(1, 9);
+console.log(result);
