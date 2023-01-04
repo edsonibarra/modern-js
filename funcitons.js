@@ -28,9 +28,9 @@ sayHi('Jane');
 
 // Arrow functions
 
-const sayHiTwo = () => {
-    console.log('Arrow Function');
+const sayHiTwo = (name) => {
+    console.log('Arrow Function' + " " + name);
 };
 
 
-sayHiTwo()
+sayHiTwo('John');
