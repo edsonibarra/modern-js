@@ -43,3 +43,13 @@ const sumTwoNums = (num1, num2) => {
 
 let result = sumTwoNums(1, 9);
 console.log(result);
+
+
+// Another way to use one line funtion return
+
+const hello = personName => 'hello ' + personName;
+
+console.log(hello('John'));
+
+const getRandomNumber = () => Math.random();
+console.log(getRandomNumber());
