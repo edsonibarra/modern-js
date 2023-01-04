@@ -28,3 +28,10 @@ console.log(fruitsArray);
 const propertiesFruits = Object.getOwnPropertyNames(fruits);
 
 console.log(propertiesFruits);
+
+
+// Get the values of the object
+
+const onlyFruitsValues = Object.values(fruits);
+
+console.log(onlyFruitsValues);
