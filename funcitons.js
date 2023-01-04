@@ -9,11 +9,17 @@ sayHello();
 // Anonymous funcitons
 
 const anotherFunction = function(){
-    console.log('Hello');
+    console.log('anotherFunction');
 };
 
 anotherFunction();
 
 
+// Funcitons with arguments
 
+function sayHi(name){
+    console.log('Hello ' + name);
+};
 
+sayHi('John');
+sayHi('Jane');
