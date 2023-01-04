@@ -1,5 +1,5 @@
 
-
+// Traditional functions
 function sayHello(){
     console.log('Hello');
 };
@@ -16,7 +16,7 @@ const anotherFunction = function( name ){
 anotherFunction();
 
 
-// Funcitons with arguments
+// Traditional funcitons with arguments
 
 function sayHi(name){
     console.log('Hello ' + name);
